@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Connect US</string>
+    <string name="connect_us">Connect Us</string>
+    <string name="sign_in">Sign in</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="get_started">Get Started</string>
+    <string name="share_your_location_with_in_a_group_in_real_time">Share your location with in a group in real time</string>
+    <string name="click_to_continue">click to continue</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_sign_up_with">or sign up with</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="what_s_your_phone_number">What\'s your phone number?</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="conti">Continue</string>
+    <string name="enter_your_email_id">Enter Your Email-Id</string>
+    <string name="next">Next</string>
+    <string name="getOtp">Enter the OTP that will send to mabove mentioned Phone number</string>
+
+    <string name="terms_conditions_text">
+        By using Connect US , you agree to maintain the confidentiality of
+        your account and password. You must not use the app for illegal activities,
+        such as hacking or spamming. We respect your privacy and process your personal
+        data according to our Privacy Policy. These terms may be updated periodically,
+        and any changes will be reflected on this page. The app is provided "as is,"
+        and we are not responsible for any damages resulting from its use. You agree
+        to follow all applicable laws.
+    </string>
+
+    <string name="privacy">
+
+        Privacy Policy\n\nWe value your privacy.
+        This Privacy Policy explains how we collect, use, and protect your personal
+        information:\n\n• We collect data like your name, email, and location to provide
+        personalized services.\n\n• Location data is only used to improve functionality
+        (e.g., real-time location in group map features) and is never shared with third parties.\n\n•
+        Your data is securely stored using Firebase and protected with authentication.\n\n•
+        We do not sell or trade your personal data to third parties.\n\n• You have the right to request
+        data deletion or update at any time.\n\n• We may use anonymized data for analytics and app improvement
+        .\n\n• Our app may include links to external websites. We are not responsible for their content
+        or policies.\n\n• We may update this Privacy Policy periodically. Changes will be notified through
+        the app or website.\n\nBy using this app, you agree to our Privacy Policy. If you have any questions,
+        contact us at contact@yourapp.com." />
+
+    </string>
+
+</resources>

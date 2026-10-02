@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Header with Group Name -->
+    <TextView
+        android:id="@+id/textViewGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="26dp"
+        android:background="@color/blue"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        android:text="Group Name" />
+
+    <!-- Chat messages list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:scrollbars="vertical"
+        android:background="@drawable/chat_background"
+        android:clipToPadding="false" />
+
+
+    <!-- Message input area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#EFEFEF"
+        android:elevation="4dp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="Type a message"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/message_input_bg"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:inputType="textMultiLine"
+            android:maxLines="4" />
+
+        <ImageButton
+            android:id="@+id/buttonSendMessage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/rounded_send_button"
+            android:src="@drawable/ic_send_white"
+            android:contentDescription="Send"
+            android:scaleType="centerInside"
+            android:tint="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>

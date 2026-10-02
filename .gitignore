@@ -1,0 +1,32 @@
+# Android Studio
+.idea/
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+app/google-services.json
+
+# Android generated files
+.externalNativeBuild/
+.cxx/
+
+# APK files
+*.apk
+*.aab
+
+# Signing files
+*.jks
+*.keystore
+
+# Google Services
+# Uncomment if your google-services.json contains sensitive project credentials
+# app/google-services.json
